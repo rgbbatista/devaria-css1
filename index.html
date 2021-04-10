@@ -9,26 +9,20 @@
   <!--essa Tag description é para performace de marketing digital-->
   <meta name="author" content="Rodrigo Batista" />
   <meta http-equiv="refresh" content="300" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="public/css/devaria.css" />
+  <link rel="stylesheet" href="public/css/header.css" />
+  <link rel="stylesheet" href="public/css/index.css" />
   <title>Olá Mundo</title>
-  <style>
-    .color-red {
-      color: red;
-    }
-    .color-red ul li a  {
-      color: green;
-    }
-    #link-home{
-      color: black ;
-    }
-  </style>
 </head>
 
 <body>
   <header>
-    <h1 class="color-red">Olá Mundo! Essa é aminha primeira página da web.</h1>
-    <nav class="color-red">
+    <a href="index.html" class="link-logo">
+      <img src="public/fotos curso devaria/logo-devaria.sgv.svg" alt="logo devaria" />
+    </a>
+    <nav class="menu" >
       <ul>
-        <li><a href="index.html" id="link-home">Home</a></li>
         <li><a href="Professores.html">Professores</a></li>
         <li><a href="FaleConosco.html">Fale Conosco</a></li>
         <li><a href="DevStar.html">DavStar</a></li>
@@ -36,9 +30,11 @@
     </nav>
   </header>
   <main>
-    <section>
+    <h1 class="title">Olá Mundo! Essa é aminha primeira página da web.</h1>
+
+    <section class="cover-container">
       <figure>
-        <img src="fotos curso devaria/fotohome.png.png" width="500" alt="Devaria Olá Mundo">
+        <img src="public/fotos curso devaria/fotohome.png.png" alt="Devaria Olá Mundo">
         <figcaption>Foto de Capa Devaria</figcaption>
       </figure>
     </section>
@@ -53,7 +49,8 @@
     </section>
         -->
         <video width="320" height="240" controls="controls">
-          <source src="vídeos curso devaria/Devaria - Dicionário do programador iniciante.mp4.mp4" type="video/mp4">
+          <source src="public/videos curso devaria/Devaria - Dicionário do programador iniciante.mp4.mp4"
+            type="video/mp4">
         </video>
         <section>
           <h3>Para que os <abbr title="Developers">Devs</abbr> fiquem sabendo, utilizamos <abb title="Microsoft">MS
