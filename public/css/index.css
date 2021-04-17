@@ -1,5 +1,30 @@
 /* Estilos da página index */
 
-.cover-container figure img  {
+/*centralizar texto "olá mundo! esta é a minha.."*/
+
+
+.cover-container figure img  {/*seletro da imagem*/
     width: 100%;
+}
+main h3.title{ /*seletor para diminuir fonte de h3 que contem classe title*/
+    font-size: 1.2em;
+}
+main section abbr {/*mudar a cor dos abbr para azul*/
+    color: #25cbd3;
+}
+@media screen and (min-width: 992px){/*aplicar estilo para um tamnho de tela específico*/
+    /*min-width largura min da tela;992px largura default para desktop*/
+    .cover-container {
+        width: 40%;
+    }
+    .cover-container,
+    .section-video {/*dois seletores com a mesma config*/
+        display: inline-block;
+    }
+    main .section-azure blockquote {
+        width: 70%;
+        margin: auto;
+        margin-bottom: 25px; /*margem inferior*/
+        text-align: center;
+    }
 }

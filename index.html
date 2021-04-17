@@ -8,9 +8,10 @@
   <meta name="keywords" content="Devaria, Programação, Aulas ao vivo, Desenvolvimento de Sistemas" />
   <!--essa Tag description é para performace de marketing digital-->
   <meta name="author" content="Rodrigo Batista" />
-  <meta http-equiv="refresh" content="300" />
+  <meta http-equiv="refresh" content="8000" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="public/css/devaria.css" />
+  <link rel="stylesheet" href="public/css/footer.css" />
   <link rel="stylesheet" href="public/css/header.css" />
   <link rel="stylesheet" href="public/css/index.css" />
   <title>Olá Mundo</title>
@@ -29,7 +30,7 @@
       </ul>
     </nav>
   </header>
-  <main>
+  <main class="text-center"><!--centralizar texto "olá mundo! esta é a minha..-->
     <h1 class="title">Olá Mundo! Essa é aminha primeira página da web.</h1>
 
     <section class="cover-container">
@@ -38,25 +39,28 @@
         <figcaption>Foto de Capa Devaria</figcaption>
       </figure>
     </section>
+    <!-- Video descontinuado
     <section>
       <div>
-        <!-- Video descontinuado
-        <iframe width="649" height="365" src="https://www.youtube.com/embed/ZEqYpFQZHsw" title="Apresentação"
+                <iframe width="649" height="365" src="https://www.youtube.com/embed/ZEqYpFQZHsw" title="Apresentação"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen></iframe>
       </div>
     </section>
         -->
+        <section class="section-video">
         <video width="320" height="240" controls="controls">
           <source src="public/videos curso devaria/Devaria - Dicionário do programador iniciante.mp4.mp4"
             type="video/mp4">
         </video>
-        <section>
-          <h3>Para que os <abbr title="Developers">Devs</abbr> fiquem sabendo, utilizamos <abb title="Microsoft">MS
-            </abb>
+      </section>
+
+        <section class="section-azure"><!-- class para cap texto da azure-->
+          <h3 class="title">Para que os <abbr title="Developers">Devs</abbr> fiquem sabendo, utilizamos <abbr title="Microsoft">MS
+            </abbr>
             Azure</h3>
-          <blockquote cite="https://azure.microsoft.com/pt-br/solutions/"><em>Resolva os problemas de negócios com
+          <blockquote class="text-justify"cite="https://azure.microsoft.com/pt-br/solutions/"><em>Resolva os problemas de negócios com
               combinações comprovadamente eficientes de produtos e serviços do Azure. Introdução à documentação e às
               arquiteturas de exemplo.</em></blockquote>
         </section>

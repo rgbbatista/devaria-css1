@@ -1,1 +1,19 @@
 /* Estilos relacionados ao rodapé */
+
+footer{
+    text-align: center; /*centralizar texto */
+    border-top: 1px solid #f0f5ff;/*borda inferior*/
+    padding: 20px;/*bordas internas,20px em todas as esferas*/
+    width: 75%;/*limitar a seção de um elemento de bloco,75% da larg da tela*/
+    margin: auto;/*centralizar o width*/
+    text-transform: lowercase; /*deixar todas as letras em caixa baixa*/
+}
+
+footer section span:first-child{
+    color: #5e49ff;
+}/*pseudo-seletor para mudar a cor do span do footer, tem dois span cada um ficará com uma cor diferente
+sendo first prim , last o últ*/
+
+footer section span:last-child{
+    color: #3bd42d;
+}

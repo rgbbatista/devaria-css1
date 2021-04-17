@@ -1,6 +1,6 @@
 /* Estilos globais do site */
 html{
-    height: 100px;
+    height: 100%;
 }
 
 body {
@@ -9,3 +9,33 @@ body {
     color: #fff;
     margin: 0;
 }
+
+.title{
+    padding: 0 20px; 
+    /*.title é seletor de elemento, padding: 0 20px com margens somente nas laterais*/
+    font-size: 1.75em; /*mundar o tamnho da fonte,1.75em quer dizer que não vai ser 32px e sim um pouco menos*/
+    text-transform: uppercase;/*todas as letras caixa grande*/
+   }
+   h1.title{ /*é seletor de todos h1 que contém classe title*/
+       margin: 40px auto 20px;
+}
+
+.text-justify{
+    text-align: justify;/*texto justificado, seletro colocado no blockquote*/
+}
+.text-center {
+    text-align: center;
+}
+
+.margin-horizontal-20px {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+@media screen and (min-width: 992px) {
+    .width-50pct-desktop { /* a imagem em pág de prof 50% quando em desktop*/
+        width: 50% !important;/*sobrescre qualquer prioridade*/
+    }
+}
+
+
